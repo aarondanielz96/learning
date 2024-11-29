@@ -1,8 +1,70 @@
+body{
+    height: 100vh;
+    background-color:green;
+    transition: none;
+    display: flex;
+    flex-direction: column;
+}
 h1{
-    color: red;
+    color: rgb(255, 0, 212);
     background-color: aqua;
+    font: optional;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px solid white;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
 }
 button:hover{
     color: blue;
     background-color: blueviolet;
+   
+}
+button{
+    border: 10px;
+    border-radius: 5px;
+    color: rgb(255, 205, 226);
+    width: 100px;
+    height: 80px;
+    padding: 5px solid white;
+}
+select{
+    border: 30px;
+    border-radius: 10px;
+    text-decoration: aqua;
+    background-color: black;
+    height: 50px;
+    width: 120px;
+}
+audio{
+    width: 300px;
+    color: blue;
+    text-transform: capitalize;
+    position: relative;
+    align-content: baseline;
+
+}
+}video{
+    width: 150px;
+    height: 100px;
+    text-transform: inherit;
+
+}
+img{
+    width: 400px;
+    height: 250px;
+    text-shadow: 0cqi;
+}
+h2{
+    color: black;
+    text-align: initial;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bolder;
+    font-style: oblique;
+    font-style: italic;
+    text-transform: capitalize;
+    
 }
